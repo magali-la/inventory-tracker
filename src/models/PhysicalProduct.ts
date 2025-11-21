@@ -1,4 +1,4 @@
-import { Product } from "./Product.ts"
+import { Product } from "./Product.js"
 
 // inherit the Product class by extending it
 class PhysicalProduct extends Product {
