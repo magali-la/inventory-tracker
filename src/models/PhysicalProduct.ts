@@ -19,6 +19,3 @@ export class PhysicalProduct extends Product {
         return calculateTax(this);
     }
 }
-
-const laptop = new PhysicalProduct("29I3KSKN", "Laptop", 1200, 2.5);
-console.log(laptop.displayDetails());

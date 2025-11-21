@@ -20,6 +20,3 @@ export class Product {
         return this.price;
     }
 }
-
-const product1 = new Product("29I3KSKN", "Laptop", 1200);
-console.log(product1.displayDetails());

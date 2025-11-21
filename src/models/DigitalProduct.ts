@@ -17,6 +17,3 @@ export class DigitalProduct extends Product {
         return this.price;
     }
 }
-
-const laptop = new DigitalProduct("28ELBOOK", "E-book", 19.00, 1.5);
-console.log(laptop.displayDetails());
